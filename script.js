@@ -1,9 +1,12 @@
 function irAvion(){
 
-document.querySelectorAll(".spot")[1].scrollIntoView({
+const avion = document.querySelectorAll(".spot")[1]
+
+avion.scrollIntoView({
 behavior:"smooth"
 })
 
+}
 }
 function crearAvion(canvasID,texto){
 
