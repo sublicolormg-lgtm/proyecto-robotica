@@ -1,12 +1,10 @@
 function irAvion(){
 
-window.scrollTo({
-top:window.innerHeight,
+document.querySelectorAll(".spot")[1].scrollIntoView({
 behavior:"smooth"
 })
 
 }
-
 function crearAvion(canvasID,texto){
 
 const scene = new THREE.Scene()
